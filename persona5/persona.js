@@ -19,10 +19,10 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
-var audioElement = new Audio('Persona 5 OST 09 - Beneath the Mask -instrumental version-.mp3');
+var audioElement = new Audio('Persona-5-OST-09-Beneath-the-Mas.mp3');
+audioElement.pause()
+//audioElement.play()
 
-audioElement.play()
-//audioElement.pause()
 
 let test = document.getElementById('play')
 /*test.addEventListener('click', () => {

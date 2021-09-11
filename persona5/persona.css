@@ -247,12 +247,12 @@ main {
   #collage {
     min-height: 100vh;
     height: auto;
-    margin-top: 50px;
+    margin-top: 90px;
   }
   .rows {
     height: 10%;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
