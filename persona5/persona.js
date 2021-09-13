@@ -19,7 +19,7 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
-var audioElement = new Audio('Persona-5-OST-09-Beneath-the-Mas.mp3');
+var audioElement = new Audio('Life-Goes-On-Persona-5.mp3');
 audioElement.pause()
 //audioElement.play()
 

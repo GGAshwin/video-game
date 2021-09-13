@@ -1,0 +1,68 @@
+*{
+    font-family: 'godofwar';
+}
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('god of war.jpg');
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.nav-link{
+    color: #F2F3F4;
+    &:hover{
+        color: #922929;
+    }
+}
+
+#play{
+    padding: 10px 15px;
+    border-radius: 50%;
+    border:none;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        background-color: #1B1B1B;
+        color: #A9A9A9;
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+    @font-face {
+        font-family: godofwar;
+        src: url("../GODOFWAR.TTF");
+    }
+    #content{
+        h1{
+            color: #1B1B1B;
+        }
+    }
+.content-para{
+    font-size: 20px;
+}
+#images{
+    height: auto;
+    min-height: 100vh;
+}
+.row{
+    width: 100%;
+    img{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #row1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        width: 100%;
+        img{
+            margin:  10px;
+            width: 33.3%;
+
+        }
+    }
+}

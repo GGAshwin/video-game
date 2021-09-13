@@ -148,16 +148,19 @@ main {
   min-height: 100vh;
   height: auto;
   padding: 5em 10em;
+  background-color: red;
 }
 
 #content h1 {
   text-align: center;
   margin-top: 90px;
+  font-size: 30px;
 }
 
 .content-para {
   line-height: 1.5em;
   margin-top: 20px;
+  font-size: 20px;
 }
 
 #footer {
@@ -237,6 +240,10 @@ main {
   .hamburger.active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
             transform: translateY(-8px) rotate(-45deg);
+  }
+  #banner {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./persona-mobile.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./persona-mobile.jpg");
   }
   #content {
     padding: 3em;

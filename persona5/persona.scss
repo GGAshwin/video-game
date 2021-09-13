@@ -115,15 +115,18 @@ p{
     min-height: 100vh;
     height:auto;
     padding: 5em 10em;
+    background-color: red;
     h1{
         text-align: center;
         margin-top: 90px;
+        font-size: 30px;
     }
 }
 
 .content-para{
     line-height: 1.5em;
     margin-top: 20px;
+    font-size: 20px;
 }
 #footer{
     text-align: center;
@@ -203,6 +206,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+    #banner{
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./persona-mobile.jpg');
+
     }
 
 #content{
