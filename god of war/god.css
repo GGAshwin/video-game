@@ -19,8 +19,8 @@
 }
 
 #play {
-  padding: 10px 15px;
-  border-radius: 50%;
+  padding: 10px;
+  border-radius: 10px;
   border: none;
   margin-top: 10px;
   -webkit-transition: 0.3s ease-in-out;
@@ -32,6 +32,11 @@
   color: #A9A9A9;
   cursor: pointer;
   font-size: 20px;
+}
+
+#play:active {
+  background-color: black;
+  color: white;
 }
 
 @font-face {

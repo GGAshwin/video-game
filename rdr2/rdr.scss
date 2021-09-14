@@ -1,0 +1,10 @@
+#banner{
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/main.jpg');
+}
+.nav-link{
+    color: 	#e3e3e3;
+    transition: 0.6s ease;
+    &:hover{
+        color: #d41936;
+    }
+}
