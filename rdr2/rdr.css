@@ -1,3 +1,12 @@
+* {
+  font-family: 'CHINESER';
+}
+
+@font-face {
+  font-family: CHINESER;
+  src: url("../CHINESER.TTF");
+}
+
 #banner {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/main.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/main.jpg");
@@ -11,5 +20,67 @@
 
 .nav-link:hover {
   color: #d41936;
+}
+
+#play {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#play:hover {
+  background-color: #d41936;
+  color: #e3e3e3;
+  cursor: pointer;
+}
+
+#content h1 {
+  padding-top: 90px;
+}
+
+.row {
+  width: 100%;
+}
+
+.row img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#quote {
+  color: white;
+  margin-left: 200px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 110%;
+  }
+  .row img {
+    width: 50%;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/mobile.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/mobile.jpg");
+  }
 }
 /*# sourceMappingURL=rdr.css.map */
