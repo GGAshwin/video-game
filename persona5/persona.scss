@@ -111,6 +111,7 @@ p{
     font-family: sans-serif;
     margin-top: 10px;
     transition: 0.6s ease;
+    text-align: center;
     &:hover{
         background-color: black;
         color: white;
@@ -193,7 +194,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         left: 0;
     }
     .nav-link{
-        color: black;
+        color: white;
     }
     .nav-item {
         margin: 2.5rem 0;
